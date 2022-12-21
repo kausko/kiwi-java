@@ -18,3 +18,11 @@ dependencies {
 tasks.getByName<Test>("test") {
     useJUnitPlatform()
 }
+
+publishing {
+    publications {
+        register("maven", MavenPublication::class) {
+            from(components["java"])
+        }
+    }
+}
