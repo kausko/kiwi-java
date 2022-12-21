@@ -8,11 +8,11 @@ This project was created by porting [Kiwi](https://github.com/nucleic/kiwi) line
 
 ## History
 
-The initial porting work was done in a weekend in at the end of January 2015 by Alex Birkett without a deep understanding of the Cassowary algorithm. 
-At that time, the tests ported from the [java cassowary project](https://github.com/pybee/cassowary-java), did not pass. 
-The project was forgotten about until early 2016 when [yonsunCN](https://github.com/yongsunCN) found it and fixed it. 
+The initial porting work was done in a weekend in at the end of January 2015 by Alex Birkett without a deep understanding of the Cassowary algorithm.
+At that time, the tests ported from the [java cassowary project](https://github.com/pybee/cassowary-java), did not pass.
+The project was forgotten about until early 2016 when [yonsunCN](https://github.com/yongsunCN) found it and fixed it.
 
-As of January 2016, the testes ported from [java cassowary project](https://github.com/pybee/cassowary-java) now pass. 
+As of January 2016, the testes ported from [java cassowary project](https://github.com/pybee/cassowary-java) now pass.
 
 ## Contributors
 
@@ -37,9 +37,9 @@ As of January 2016, the testes ported from [java cassowary project](https://gith
         System.out.println("x " + x.getValue() + " y " + y.getValue());
         // x == 20
         // y == 12
-        
+
 # Links
-* [Kiwi](https://github.com/nucleic/kiwi) 
+* [Kiwi](https://github.com/nucleic/kiwi)
 * [Java Cassowary](https://github.com/pybee/cassowary-java)
 * [Haxe-Kiwi](https://github.com/Tw1ddle/haxe-kiwi)
 
