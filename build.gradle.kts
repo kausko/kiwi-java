@@ -1,7 +1,9 @@
 plugins {
     id("java")
+    id("maven-publish")
 }
 
+group = "no.birkett.kiwi"
 version = "1.0-SNAPSHOT"
 
 repositories {
