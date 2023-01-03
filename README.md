@@ -1,5 +1,5 @@
 # kiwi-java
-[![Build Status](https://travis-ci.org/alexbirkett/kiwi-java.svg?branch=master)](https://travis-ci.org/alexbirkett/kiwi-java)
+[![Release](https://jitpack.io/v/kausko/kiwi-java.svg)](https://jitpack.io/#kausko/kiwi-java)
 
 A Java port of the [Kiwi C++](https://github.com/nucleic/kiwi) implementation of the Cassowary constraint solving algorithm
 
@@ -36,6 +36,11 @@ Then, add the following to the `dependencies` section:
 
 ## Example usage
 
+```java
+import no.birkett.kiwi.*;
+
+public class Example {
+    public static void main(String[] args) {
         Solver solver = new Solver();
         Variable x = new Variable("x");
         Variable y = new Variable("y");
@@ -47,10 +52,13 @@ Then, add the following to the `dependencies` section:
         solver.addConstraint(Symbolics.equals(Symbolics.add(x,2), Symbolics.add(y, 10)));
 
         solver.updateVariables();
-        
+
         System.out.println("x " + x.getValue() + " y " + y.getValue());
         // x == 20
         // y == 12
+    }
+}
+```
 
 ## Background
 This project was created by porting [Kiwi](https://github.com/nucleic/kiwi) line for line to Java. The objective is to create a faster Java implementation of the Cassowary constraint solving algorithm.
